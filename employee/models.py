@@ -1,6 +1,6 @@
 from django.db import models
 
-class employee(models.Model):
+class Employee(models.Model):
     name = models.CharField(max_length=30)
     email = models.EmailField(max_length=256) # maximum email length
     departament = models.CharField(max_length=30)
