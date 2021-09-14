@@ -18,9 +18,11 @@ departament | Char(30)
 
 ## Usage
 
+### LIST
+
 running:
 ```
-curl -H "Content-Type: application/javascript" http://localhost:8000/employee
+curl -H "Content-Type: application/javascript" http://localhost:8000/employee/
 ```
 
 returns:
@@ -42,4 +44,15 @@ returns:
         "department": "RH"
 }
 ]
+```
+### POST
+
+```
+curl -H "Content-Type: application/json" -X POST -d '{"name": "joejoe", "email": "joejoe@joe.com","departament": "jj"}' http://localhost:8000/employee/
+```
+
+### DELETE
+
+```
+curl -H "Accept: application/json" -X DELETE http://localhost:8000/employee/5/
 ```
