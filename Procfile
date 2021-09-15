@@ -1,1 +1,1 @@
-gunicorn igsmanager.wsgi
+web: gunicorn igsmanager.wsgi
