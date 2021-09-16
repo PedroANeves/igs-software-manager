@@ -2,7 +2,7 @@
 
 test a implementation on heroku at: https://igs-software-manager.herokuapp.com/
 
-By default, the project uses the (Browsable API)[https://www.django-rest-framework.org/topics/browsable-api/] when open with a web browser, you can use (?format=json)[https://igs-software-manager.herokuapp.com/?format=json] to view the raw json.
+By default, the project uses the [Browsable API](https://www.django-rest-framework.org/topics/browsable-api/) when open with a web browser, you can use [?format=json](https://igs-software-manager.herokuapp.com/?format=json) to view the raw json.
 
 Written in [Python](https://www.python.org/)/[Django](https://www.djangoproject.com/) using the [Django REST framework](https://www.django-rest-framework.org/)
 
